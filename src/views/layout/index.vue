@@ -13,18 +13,24 @@
             <span slot="title">首页</span>
           </el-menu-item>
 
-          <!-- 内容管理 -->
+          <!-- 模块管理 -->
           <el-submenu index="2">
             <!-- 具名插槽 -->
-            <template slot="title">公司管理</template>
-            <el-menu-item index="/boss">BOSS</el-menu-item>
-            <el-menu-item index="/project">项目</el-menu-item>
+            <template slot="title">模块管理</template>
+            <el-menu-item index="/boss">新建模块</el-menu-item>
+            <el-menu-item index="/project">模块项目</el-menu-item>
           </el-submenu>
 
-          <!-- 粉丝管理 -->
+          <!-- 项目流程-->
           <el-submenu index="3">
             <!-- 具名插槽 -->
-            <template slot="title">系统管理</template>
+            <template slot="title">项目流程</template>
+          </el-submenu>
+
+          <!-- 人员管理-->
+          <el-submenu index="3">
+            <!-- 具名插槽 -->
+            <template slot="title">人员管理</template>
           </el-submenu>
 
           <!-- 账户信息 -->
@@ -90,15 +96,15 @@ export default {
     overflow: hidden;
     width: 220px;
     height: 100vh;
-    background-color: #323745;
-    .logo-left{
-      background-color: #2e2f32;
-      padding: 15px 0;
-      text-align: center;
-      img {
-        height: 30px;
-      }
-    }
+    background-color: #323245;
+    // .logo-left{
+    //   background-color: #2e2f32;
+    //   padding: 15px 0;
+    //   text-align: center;
+    //   img {
+    //     height: 30px;
+    //   }
+    // }
   }
   .right {
     margin-left: 200px;

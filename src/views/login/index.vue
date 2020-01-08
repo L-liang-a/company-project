@@ -48,9 +48,9 @@ export default {
   data () {
     return {
       ruleForm: {
-        mobile: '',
-        code: '',
-        checked: false
+        mobile: '15311111111',
+        code: '123456',
+        checked: true
       },
       rules: {
         mobile: [
